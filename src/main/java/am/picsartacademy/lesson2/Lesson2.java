@@ -30,8 +30,6 @@ public class Lesson2 {
             array3[i] = i + 1;
             System.out.println(array3[i]);
         }
-
-
     }
 
 }
