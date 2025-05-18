@@ -1,6 +1,6 @@
 package am.picsartacademy.homeworkOOP;
 
-public class Phones {
+public class Phone {
     public String phoneNumber;
     public String color;
     public void call () {

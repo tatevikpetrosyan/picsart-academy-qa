@@ -1,12 +1,12 @@
 package am.picsartacademy.homeworkOOP;
 
-import am.picsartacademy.homeworkOOP.models.MobilePhones;
+import am.picsartacademy.homeworkOOP.models.MobilePhone;
 import am.picsartacademy.homeworkOOP.models.Samsung;
 import am.picsartacademy.homeworkOOP.models.iPhone;
 
 public class Working {
     public static void main(String[] args) {
-        Phones myPhone = new Phones();
+        Phone myPhone = new Phone();
         myPhone.phoneNumber = "091456871";
         myPhone.color = "black";
         myPhone.call();
@@ -17,7 +17,7 @@ public class Working {
         System.out.println();
         System.out.println("---Another mobile phone---");
 
-        MobilePhones myPhone1 = new MobilePhones();
+        MobilePhone myPhone1 = new MobilePhone();
         myPhone1.phoneNumber = "0954789314";
         myPhone1.color = "blue";
         myPhone1.memory = "256GB";

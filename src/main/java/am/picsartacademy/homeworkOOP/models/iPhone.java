@@ -1,6 +1,6 @@
 package am.picsartacademy.homeworkOOP.models;
 
-public class iPhone extends Smartphones {
+public class iPhone extends Smartphone {
     private boolean faceTime;
     public void callFT() {
         System.out.println("calling with Face time");

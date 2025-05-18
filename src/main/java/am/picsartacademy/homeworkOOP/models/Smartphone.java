@@ -1,6 +1,6 @@
 package am.picsartacademy.homeworkOOP.models;
 
-public class Smartphones extends MobilePhones {
+public class Smartphone extends MobilePhone {
     private boolean camera;
     private int countCamera;
     private boolean touchscreen;

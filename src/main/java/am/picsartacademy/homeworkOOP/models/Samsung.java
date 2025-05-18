@@ -1,6 +1,6 @@
 package am.picsartacademy.homeworkOOP.models;
 
-public class Samsung extends Smartphones {
+public class Samsung extends Smartphone {
     private char flip;
     public void setFlip(char flip1) {
         flip = flip1;
