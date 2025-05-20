@@ -45,6 +45,9 @@ public class Working {
         System.out.println();
         System.out.println("---Samsung example---");
         Samsung samsung1 = new Samsung();
+        samsung1.color = "yellow";
+        samsung1.setCamera(true);
+        System.out.println(samsung1.getCamera());
         samsung1.setFlip('Y');
         System.out.println(samsung1.getFlip());
 
