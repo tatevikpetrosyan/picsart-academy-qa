@@ -14,6 +14,7 @@ public class Working2 {
 
         System.out.println("--------");
         iPhone iPhone14 = new iPhone(true);
+        iPhone14.updateApps();
         iPhone14.checkSize("max");
         iPhone14.checkSize("max", "pro");
     }
