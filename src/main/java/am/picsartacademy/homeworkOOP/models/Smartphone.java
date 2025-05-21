@@ -13,6 +13,14 @@ public class Smartphone extends MobilePhone {
     public void takePicture() {
         System.out.println("camera is turned on");
     }
+    public Smartphone() {
+
+    }
+    public Smartphone(int countCamera, boolean touchscreen) {
+        this.countCamera = countCamera;
+        this.touchscreen = touchscreen;
+    }
+
 
     public void setCamera(boolean cam) {
         camera = cam;

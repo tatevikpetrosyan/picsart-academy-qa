@@ -30,7 +30,7 @@ public class Working {
         System.out.println();
         System.out.println("---My new iPhone---");
 
-        iPhone iphone = new iPhone();
+        iPhone iphone = new iPhone(true);
         iphone.setCamera(true);
         System.out.println("My iphone has camera: " + iphone.getCamera());
         iphone.color = "white";
