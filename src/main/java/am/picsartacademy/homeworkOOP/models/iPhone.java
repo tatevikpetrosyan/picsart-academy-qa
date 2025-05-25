@@ -15,6 +15,7 @@ public class iPhone extends Smartphone {
     }
 
     public iPhone(boolean faceTime) {
+
         this.faceTime = faceTime;
     }
 
