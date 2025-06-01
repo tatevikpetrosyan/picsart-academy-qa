@@ -2,6 +2,7 @@ package am.picsartacademy.onlineShopping;
 
 import am.picsartacademy.onlineShopping.models.Customer;
 import am.picsartacademy.onlineShopping.models.Product;
+import am.picsartacademy.onlineShopping.models.User;
 
 public class Main {
     public static void main(String[] args) {
@@ -20,6 +21,10 @@ public class Main {
         Product[] products = {product1, product2};
 
         Customer.addToCart(2, products);
+
+        Customer customer1 = new Customer("Customer");
+        customer1.setName("dssdssddsd4555454545454554545");
+        System.out.println(customer1.getName());
 
     }
 }

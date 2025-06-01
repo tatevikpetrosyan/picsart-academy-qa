@@ -13,7 +13,11 @@ public abstract class User {
         return name;
     }
     public void setName(String name) {
-        this.name = name;
+        if (name.length() > 20) {
+            throw new NameException("Name field should be 20digits long");
+        } else {
+            this.name = name;
+        }
     }
 
     public String getEmail() {

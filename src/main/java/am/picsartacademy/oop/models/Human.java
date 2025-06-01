@@ -10,5 +10,7 @@ public class Human {
     public boolean degree;
     public void speak () {
         System.out.println("I am speaking");
+
     }
+
 }
